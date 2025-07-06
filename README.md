@@ -11,13 +11,13 @@ With hands-on experience in both enterprise and product-based environments, I sp
 
 - **Languages**: Java
 - **Database**: Oracle SQL, MySQL
-- **Frontend**: HTML5, CSS, JSP, JavaScript, Bootstrap, JQuery
-- **Framework**: Spring MVC, Spring Boot, J2EE / Jakarta EE
-- **Tools/Software**: SQL Server, Postman, Portecle, Putty, WinSCP
-- **Server**: WebLogic, Apache Tomcat, Wildfly
-- **Version Control**: Bitbucket, Git
+- **Frontend**: HTML5, CSS, JSP, JavaScript, Bootstrap, jQuery
+- **Framework**: Spring Boot, Spring MVC, J2EE / Jakarta EE
+- **Tools/Software**: SQL Server, Postman, Portecle, PuTTy, WinSCP
+- **Server**: Apache Tomcat, WebLogic, WildFly 
+- **Version Control**: Git, Bitbucket
 - **Architecture/Design Patterns**: Restful APIs, Microservices
-- **Other Skills**: Strong Communication, Client Management, Time Management, Teamwork, Flexibility, Agile Methodologies, Collaboration
+- **Professional Skills**: Agile Methodologies, Strong Communication, Client Interaction, Time Management, Team Collaboration, Flexibility
 
 
 ## 🌐 Portfolio Features
