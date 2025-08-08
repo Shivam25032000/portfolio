@@ -9,13 +9,14 @@ With hands-on experience in both enterprise and product-based environments, I sp
 
 ## 🛠️ Tech Stack
 
-- **Languages**: Java
+- **Languages**: Java, JavaScript
 - **Database**: Oracle SQL, MySQL
-- **Frontend**: HTML5, CSS, JSP, JavaScript, Bootstrap, jQuery
+- **Frontend**: HTML5, CSS, JSP, Bootstrap, jQuery
 - **Framework**: Spring Boot, Spring MVC, J2EE / Jakarta EE
 - **Tools/Software**: SQL Server, Postman, Portecle, PuTTy, WinSCP
+- **DevOps & Cloud:**: Ansible, AWS, CI/CD, Git, Jenkins
 - **Server**: Apache Tomcat, WebLogic, WildFly 
-- **Version Control**: Git, Bitbucket
+- **Version Control**: Github, Bitbucket
 - **Architecture/Design Patterns**: Restful APIs, Microservices
 - **Professional Skills**: Agile Methodologies, Strong Communication, Client Interaction, Time Management, Team Collaboration, Flexibility
 
