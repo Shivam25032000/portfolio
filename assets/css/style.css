@@ -166,41 +166,54 @@ header .navbar ul li a:hover {
   header .navbar {
     position: fixed;
     top: 6.5rem;
+    /* Align below header */
     right: -120%;
-    width: 75%;
-    height: 100%;
+    width: 60%;
+    /* Half screen width */
+    height: 100vh;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: rgba(255, 255, 255, 0.95);
+    /* Light/Glass theme */
+    backdrop-filter: blur(10px);
+    padding-bottom: 2rem;
+    transition: right 0.3s ease;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   header .navbar ul {
     flex-flow: column;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   header .navbar ul li {
     text-align: center;
     width: 100%;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     border-radius: 0.5rem;
-    width: 26rem;
   }
 
   header .navbar ul li a {
     display: block;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: left;
-    color: #fff;
+    color: #333;
+    /* Dark text for light background */
     font-size: 2rem;
+    font-weight: 600;
   }
 
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
-    padding: 1rem;
-    color: #fff;
+    padding: 1.5rem;
+    color: #da0416;
+    /* Brand Red */
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #da0416;
+    background: rgba(218, 4, 22, 0.05);
+    /* Very subtle red tint */
+    border-bottom: none;
   }
 
   .fa-times {
