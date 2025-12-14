@@ -37,7 +37,6 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
     // <!-- contact form submission handler -->
     $("#contact-form").submit(function (event) {
         event.preventDefault();
@@ -49,14 +48,14 @@ $(document).ready(function () {
 
         // Phone Validation: Exactly 10 digits
         if (!/^\d{10}$/.test(phone)) {
-            alert("Please enter a valid 10-digit phone number.");
+            showModal("Validation Error", "Please enter a valid 10-digit phone number.", false);
             return;
         }
 
         // Email Validation: Strict pattern
         var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
         if (!emailPattern.test(email)) {
-            alert("Please enter a valid email address.");
+            showModal("Validation Error", "Please enter a valid email address.", false);
             return;
         }
 
@@ -80,22 +79,54 @@ $(document).ready(function () {
             .then(data => {
                 if (data.success === "true" || data.success === true) {
                     document.getElementById("contact-form").reset();
-                    alert("Form Submitted Successfully! I will get back to you soon.");
+                    showModal("Success!", "I will get back to you soon.", true);
                 } else {
-                    alert("Form Submitted! Please check your email inbox to ACTIVATE this form for the first time.");
+                    showModal("Form Submitted", "Please check your email inbox to ACTIVATE this form for the first time.", true);
                     document.getElementById("contact-form").reset();
                 }
             })
             .catch(error => {
                 console.error("Submission Error:", error);
                 // Check if error is related to file protocol usage
-                alert("Submission failed. NOTE: FormSubmit AJAX does not work on local HTML files (file://). Please deploy your site or use a local web server (like VS Code Live Server) to test.");
+                showModal("Submission Failed", "FormSubmit AJAX does not work on local HTML files (file://). Please deploy your site or use a local server.", false);
             });
     });
     // <!-- contact form submission handler -->
-    // <!-- emailjs to mail contact form data -->
 
 });
+
+// Custom Modal Logic
+function showModal(title, message, isSuccess) {
+    const modal = document.getElementById("custom-modal");
+    const modalTitle = document.getElementById("modal-title");
+    const modalMessage = document.getElementById("modal-message");
+    const modalIcon = document.querySelector(".modal-icon i");
+    const closeBtn = document.getElementById("close-modal-btn");
+
+    modalTitle.textContent = title;
+    modalMessage.textContent = message;
+
+    if (isSuccess) {
+        modalIcon.className = "fas fa-check-circle";
+        modalIcon.style.color = "#2bd47d"; // Success Green
+    } else {
+        modalIcon.className = "fas fa-exclamation-circle";
+        modalIcon.style.color = "#da0416"; // Error Red
+    }
+
+    modal.classList.add("active");
+
+    closeBtn.onclick = function () {
+        modal.classList.remove("active");
+    };
+
+    // Close on outside click
+    modal.onclick = function (e) {
+        if (e.target === modal) {
+            modal.classList.remove("active");
+        }
+    };
+}
 
 document.addEventListener('visibilitychange',
     function () {
