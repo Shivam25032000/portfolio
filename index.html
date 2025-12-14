@@ -51,6 +51,7 @@
           <li><a href="#awards">Awards & Achievements</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -85,8 +86,9 @@
               <a
                 class="instagram"
                 aria-label="Instagram"
-                href="https://www.instagram.com/its_shivam_22/"
-                ><i class="fab fa-instagram" target="_blank"></i
+                href="https://www.instagram.com/itz_shivam_s._/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
               ></a>
             </li>
             <li>
@@ -141,48 +143,47 @@
 
       <div class="row">
         <div class="image">
-          <img
-            draggable="false"
-            class="tilt"
-            src="./assets/images/profile1.png"
-            alt=""
-          />
-          <!-- You can change the image source to your own image -->
+          <div class="profile-wrapper">
+            <img
+              draggable="false"
+              class="tilt"
+              src="./assets/images/about-profile.jpg"
+              alt="Profile Image"
+            />
+            <div class="overlay">
+                <h3>Java Developer</h3>
+            </div>
+          </div>
         </div>
         <div class="content">
           <h3>I'm Shivam Kumar Singh</h3>
-          <span class="tag">Software Developer</span>
-
+          <span class="tag">Full Stack Developer</span>
+          
           <p>
-            I am an experienced Software Engineer with a focus on backend
-            development using Spring MVC, Spring Boot, and Microservices. I
-            bring expertise in JavaScript, RESTful APIs, SQL Server, and MySQL,
-            combined with strong knowledge of data structures and modern
-            software engineering practices. I have practical experience with
-            CI/CD pipelines, Agile workflows, and tools like Jenkins, Git,
-            Bitbucket, Maven, and Apache Tomcat. I also enjoy working with
-            frontend frameworks such as Bootstrap and jQuery.
+            I am a passionate <strong>Full Stack Developer</strong> based in Chennai, India. 
+            I enjoy building dynamic, creative, and responsive web applications. 
+            My expertise spans across backend development with Java/J2EE and frontend magic with HTML, CSS, and JavaScript. 
+            I love resolving complex problems and learning new technologies to deliver high-quality digital solutions.
           </p>
-
+          
           <div class="box-container">
             <div class="box">
-              <!-- <p><span> age: </span> 25</p> -->
-              <p><span> phone : </span> +91 7704030704</p>
-              <p><span> email : </span> shivamkumarsingh25032000@gmail.com</p>
-              <p><span> place : </span> Chennai, Tamil Nadu, India</p>
+              <p><span>Phone:</span> +91 77040 30704</p>
+            </div>
+            <div class="box">
+              <p><span>Email:</span> shivamkumarsingh25032000@gmail.com</p>
+              <p><span>Place:</span> Chennai, India - 600089</p>
             </div>
           </div>
-
+          
           <div class="resumebtn">
-            <a href="assets/resume/my_resume.pdf" target="_blank" class="btn"
-              ><span>Resume</span>
-              <i class="fas fa-chevron-right"></i>
-            </a>
+            <a href="./assets/resume/my_resume.pdf" target="_blank" class="btn"><span>Resume</span> <i class="fas fa-chevron-right"></i></a>
           </div>
         </div>
       </div>
     </section>
     <!-- about section ends -->
+
 
     <!-- skills section starts -->
     <section class="skills" id="skills">
@@ -191,376 +192,197 @@
       </h2>
 
       <div class="container">
-        <div class="row" id="skillsContainer">
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/java.png"
-                height="50"
-                width="50"
-              />
-              <span>Java</span>
+        <div class="row">
+
+          <!-- Backend & Database -->
+          <div class="col-md-4 col-12">
+            <div class="skill-category">
+              <h3><i class="fas fa-server"></i> Backend & Database</h3>
+              <div class="skill-group">
+                <div class="skill-item">
+                  <img src="./assets/images/skills/java.png" alt="Java" />
+                  <span>Java</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/spring-boot.png" alt="Spring Boot" />
+                  <span>Spring Boot</span>
+                </div>
+                <!-- Reusing spring-boot image for Spring MVC as per original -->
+                <div class="skill-item">
+                  <img src="./assets/images/skills/spring-boot.png" alt="Spring MVC" />
+                  <span>Spring MVC</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/JakartaEE.png" alt="J2EE / Jakarta EE" />
+                  <span>J2EE</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/JSP.png" alt="JSP" />
+                  <span>JSP</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/rest-api.png" alt="REST API" />
+                  <span>REST API</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/microservices.png" alt="Microservices" />
+                  <span>Microservices</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/MySQL.png" alt="MySQL" />
+                  <span>MySQL</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/OracleSQL.png" alt="Oracle SQL" />
+                  <span>Oracle SQL</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/sql.png" alt="SQL Server" />
+                  <span>SQL Server</span>
+                </div>
+              </div>
             </div>
           </div>
-           <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/javascript.png"
-                height="50"
-                width="50"
-              />
-              <span>JavaScript</span>
+
+          <!-- Frontend -->
+          <div class="col-md-4 col-12">
+            <div class="skill-category">
+              <h3><i class="fas fa-code"></i> Frontend Development</h3>
+              <div class="skill-group">
+                <div class="skill-item">
+                  <!-- Restored original HTML5 SVG -->
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" height="2.5rem" width="2.5rem" viewBox="0 0 48 48" style="margin-right: 0.8rem;">
+                    <linearGradient id="SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1" x1="18.208" x2="34.159" y1="2.413" y2="46.236" gradientUnits="userSpaceOnUse">
+                      <stop offset="0" stop-color="#f09701"></stop>
+                      <stop offset="1" stop-color="#e36001"></stop>
+                    </linearGradient>
+                    <path fill="url(#SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1)" d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041 c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5 H9.184C8.01,5,7.089,6.006,7.192,7.176z"></path>
+                    <path fill="#f09601" d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242 C37.656,8.502,37.196,8,36.609,8H24z"></path>
+                    <path fill="#fff" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z"></path>
+                    <path fill="#d6e0e9" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+                    <path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z" opacity=".05"></path>
+                    <path d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z" opacity=".07"></path>
+                  </svg>
+                  <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/css.png" alt="CSS" />
+                  <span>CSS</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/javascript.png" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/jQuery.png" alt="jQuery" />
+                  <span>jQuery</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/bootstrap.png" alt="Bootstrap" />
+                  <span>Bootstrap</span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="bar">
-            <div class="info">
-              <img src="./assets/images/skills/OracleSQL.png" height="50" width="50" />
-              <span>Oracle SQL</span>
+
+          <!-- Tools & DevOps -->
+          <div class="col-md-4 col-12">
+            <div class="skill-category">
+              <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+              <div class="skill-group">
+                <div class="skill-item">
+                  <img src="./assets/images/skills/aws.png" alt="AWS" />
+                  <span>AWS</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/git.png" alt="Git" />
+                  <span>Git</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/github.png" alt="GitHub" />
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/bitbucket.png" alt="Bitbucket" />
+                  <span>Bitbucket</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/jenkins.png" alt="Jenkins" />
+                  <span>Jenkins</span>
+                </div>
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/ci-cd.png" alt="CI/CD" />
+                  <span>CI/CD</span>
+                </div>
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/ansible.png" alt="Ansible" />
+                  <span>Ansible</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/winscp.png" alt="WinSCP" />
+                  <span>WinSCP</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/putty.png" alt="PuTTy" />
+                  <span>PuTTy</span>
+                </div>
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/postman.png" alt="Postman" />
+                  <span>Postman</span>
+                </div>
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/portecle.png" alt="Portecle" />
+                  <span>Portecle</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/apacheTomcat.png" alt="Apache Tomcat" />
+                  <span>Tomcat</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/weblogic.png" alt="WebLogic" />
+                  <span>WebLogic</span>
+                </div>
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/wildfly.png" alt="Wildfly" />
+                  <span>Wildfly</span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="bar">
-            <div class="info">
-              <img src="./assets/images/skills/MySQL.png" height="50" width="50" />
-              <span>MySQL</span>
+
+          <!-- Soft Skills -->
+          <div class="col-md-4 col-12" style="margin-top: 2rem; width: 100%;">
+            <div class="skill-category" style="align-items: center; text-align: center;">
+              <h3><i class="fas fa-users"></i> Professional & Soft Skills</h3>
+              <div class="skill-group" style="justify-content: center;">
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/agile.png" alt="Agile" />
+                  <span>Agile Methodologies</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/teamwork.png" alt="Teamwork" />
+                  <span>Team Collaboration</span>
+                </div>
+                <div class="skill-item">
+                  <img src="./assets/images/skills/time.png" alt="Time Management" />
+                  <span>Time Management</span>
+                </div>
+                 <div class="skill-item">
+                  <img src="./assets/images/skills/communication.png" alt="Communication" />
+                  <span>Strong Communication</span>
+                </div>
+                 <div class="skill-item">
+                   <img src="./assets/images/skills/client.png" alt="Client Interaction" />
+                  <span>Client Interaction</span>
+                </div>
+                 <div class="skill-item">
+                   <img src="./assets/images/skills/flexibility.png" alt="Flexibility" />
+                  <span>Flexibility</span>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="bar">
-            <div class="info">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                height="50"
-                width="50"
-                viewBox="0 0 48 48"
-              >
-                <linearGradient
-                  id="SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1"
-                  x1="18.208"
-                  x2="34.159"
-                  y1="2.413"
-                  y2="46.236"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop offset="0" stop-color="#f09701"></stop>
-                  <stop offset="1" stop-color="#e36001"></stop>
-                </linearGradient>
-                <path
-                  fill="url(#SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1)"
-                  d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z"
-                ></path>
-                <path
-                  fill="#f09601"
-                  d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z"
-                ></path>
-                <path
-                  fill="#fff"
-                  d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z"
-                ></path>
-                <path
-                  fill="#d6e0e9"
-                  d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
-                ></path>
-                <path
-                  d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z"
-                  opacity=".05"
-                ></path>
-                <path
-                  d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z"
-                  opacity=".07"
-                ></path>
-              </svg>
-              <span>HTML5</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/css.png"
-                height="50"
-                width="50"
-              />
-              <span>CSS</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img src="./assets/images/skills/JSP.png" height="50" width="50" />
-              <span>JSP</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/bootstrap.png"
-                height="50"
-                width="50"
-              />
-              <span>Bootstrap</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img src="./assets/images/skills/jQuery.png" height="50" width="50" />
-              <span>jQuery</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/spring-boot.png"
-                height="50"
-                width="50"
-              />
-              <span>Spring Boot</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/spring-boot.png"
-                height="50"
-                width="50"
-              />
-              <span>Spring MVC</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img src="./assets/images/skills/JakartaEE.png" height="50" width="50" />
-              <span>J2EE / Jakarta EE</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/sql.png"
-                height="50"
-                width="50"
-              />
-              <span>SQL Server</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/postman.png"
-                height="50"
-                width="50"
-              />
-              <span>Postman</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/portecle.png" 
-                height="50"
-                width="50"
-              />
-              <span>Portecle</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/putty.png"
-                height="50"
-                width="50"
-              />
-              <span>PuTTy</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/winscp.png"
-                height="50"
-                width="50"
-              />
-              <span>WinSCP</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/ansible.png"
-                height="50"
-                width="50"
-              />
-              <span>Ansible</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/aws.png"
-                height="50"
-                width="50"
-              />
-              <span>AWS</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/ci-cd.png"
-                height="50"
-                width="50"
-              />
-              <span>CI/CD</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/git.png"
-                height="50"
-                width="50"
-              />
-              <span>Git</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/jenkins.png"
-                height="50"
-                width="50"
-              />
-              <span>Jenkins</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/apacheTomcat.png"
-                height="50"
-                width="50"
-              />
-              <span>Apache Tomcat</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/weblogic.png"
-                height="50"
-                width="50"
-              />
-              <span>WebLogic</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/wildfly.png"
-                height="50"
-                width="50"
-              />
-              <span>Wildfly</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/github.png"
-                height="50"
-                width="50"
-              />
-              <span>GitHub</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/bitbucket.png"
-                height="50"
-                width="50"
-              />
-              <span>Bitbucket</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/rest-api.png"
-                height="50"
-                width="50"
-              />
-              <span>RESTful APIs</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/microservices.png"
-                height="50"
-                width="50"
-              />
-              <span>Microservices</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/agile.png"
-                height="50"
-                width="50"
-              />
-              <span>Agile Methodologies</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/communication.png"
-                height="50"
-                width="50"
-              />
-              <span>Strong Communication</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/client.png"
-                height="50"
-                width="50"
-              />
-              <span>Client Interaction</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/time.png"
-                height="50"
-                width="50"
-              />
-              <span>Time Management</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/teamwork.png"
-                height="50"
-                width="50"
-              />
-              <span>Team Collaboration</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <img
-                src="./assets/images/skills/flexibility.png"
-                height="50"
-                width="50"
-              />
-              <span>Flexibility</span>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -571,29 +393,28 @@
       <h2 class="heading"><i class="fas fa-briefcase"></i> Work Experience</h2>
 
       <div class="timeline">
-        <!-- <div class="container left"> for future use-->
-        <div class="container right">
-          <div class="content">
-            <div class="tag">
-              <h2>Software Engineer  - August 2023 – Present</h2>
-              <h3>Financial Software & Systems (P) Ltd  - Chennai, India</h3>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Software Engineer</h3>
+              <span class="company">Financial Software & Systems (P) Ltd - Chennai, India</span>
+              <span class="date"><i class="fas fa-calendar-alt"></i> February 2023 – Present</span>
             </div>
-            <div class="desc">
-              <p>
-                ●	Performed transaction matching, generated extraction and transaction reports, and conducted GL tally to ensure financial accuracy.<br />
-                ●	Contributed to the Recon Project by managing automated extraction of all incoming files across multiple interchanges, ensuring accurate, timely, and efficient data processing for downstream systems.<br />
-                ●	Migrated database from Oracle to MySQL, refactored backend code, and integrated AWS KMS with AES-256 encryption & HMAC-SHA256, strengthening system security and compliance.<br />
-                ●	Resolved transaction-impacting production issues at Mettle, ensuring 100% uptime and seamless financial operations.<br />
-                ●	Implemented SCA Exemptions for MasterCard at Brightwell Bank, improving authentication UX while meeting compliance.<br />
-                ●	Facilitated EMV Co. certification via FIME portal, ensuring compliance with international transaction standards.<br />
-                ●	Designed and implemented JWT-based authentication for IDFC First Bank, enhancing digital banking security.<br />
-                ●	Developed Declined Card feature (Visa/MasterCard) for IDFC First Bank, optimizing transaction flows and customer experience.<br />
-                ●	Built a CRUD-based Customer Management System using Spring MVC & Oracle, strengthening backend fundamentals.<br />
-                ●	Designed REST APIs for Risk-Based Assessment at MDAQ Bank, enabling smarter fraud detection.<br />
-                ●	Gained hands-on expertise in Java, Spring MVC, Eclipse IDE, and Oracle DB.<br />
-                ●	Improved team collaboration & client communication skills through active project involvement.
-              </p>
-            </div>
+            <ul class="timeline-body">
+              <li>Performed transaction matching, generated extraction and transaction reports, and conducted GL tally to ensure financial accuracy.</li>
+              <li>Contributed to the Recon Project by managing automated extraction of all incoming files across multiple interchanges, ensuring accurate, timely, and efficient data processing for downstream systems.</li>
+              <li>Migrated database from Oracle to MySQL, refactored backend code, and integrated AWS KMS with AES-256 encryption & HMAC-SHA256, strengthening system security and compliance.</li>
+              <li>Resolved transaction-impacting production issues at Mettle, ensuring 100% uptime and seamless financial operations.</li>
+              <li>Implemented SCA Exemptions for MasterCard at Brightwell Bank, improving authentication UX while meeting compliance.</li>
+              <li>Facilitated EMV Co. certification via FIME portal, ensuring compliance with international transaction standards.</li>
+              <li>Designed and implemented JWT-based authentication for IDFC First Bank, enhancing digital banking security.</li>
+              <li>Developed Declined Card feature (Visa/MasterCard) for IDFC First Bank, optimizing transaction flows and customer experience.</li>
+              <li>Built a CRUD-based Customer Management System using Spring MVC & Oracle, strengthening backend fundamentals.</li>
+              <li>Designed REST APIs for Risk-Based Assessment at MDAQ Bank, enabling smarter fraud detection.</li>
+              <li>Gained hands-on expertise in Java, Spring MVC, Eclipse IDE, and Oracle DB.</li>
+              <li>Improved team collaboration & client communication skills through active project involvement.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -608,18 +429,30 @@
 
       <div class="box-container">
         <div class="box">
-          <h3>Champion of the Quarter - Q4 2023-2024</h3>
-          <p>
-            Recognized as Champion of 4th Quarter 2023-2024 for leading complex initiatives at IDFC First Bank, 
-            achieving seamless implementations and earning commendation for outstanding service delivery.
-          </p>
+          <div class="icon">
+            <i class="fas fa-crown"></i>
+          </div>
+          <div class="content">
+            <span class="date">Q4 2023-2024</span>
+            <h3>Champion of the Quarter</h3>
+            <p>
+              Recognized for leading complex initiatives at IDFC First Bank, 
+              achieving seamless implementations and earning commendation for outstanding service delivery.
+            </p>
+          </div>
         </div>
         <div class="box">
-          <h3>Team of the Quarter - Q4 2023-2024</h3>
-          <p>
-            Recognized as Team of 4th Quarter 2023-2024 for the ACS team's dedication, working tirelessly to achieve 
-            successful EMV Co. Certification, showcasing our commitment to excellence under challenging conditions.
-          </p>
+          <div class="icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="content">
+            <span class="date">Q4 2023-2024</span>
+            <h3>Team of the Quarter</h3>
+            <p>
+              Awarded to the ACS team for working tirelessly to achieve 
+              successful EMV Co. Certification, showcasing commitment to excellence under challenging conditions.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -642,13 +475,13 @@
             <img
               draggable="false"
               src="./assets/images/educat/LNCT.jpeg"  
-              alt=""
+              alt="LNCT University"
             />
           </div>
           <div class="content">
-            <h3>MCA</h3>
-            <p>LNCT University Bhopal M.P.</p>
-            <h4>2021-2023 | Completed</h4>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p>LNCT University, Bhopal (M.P.)</p>
+            <h4>2021 - 2023 | Completed</h4>
           </div>
         </div>
 
@@ -657,13 +490,13 @@
             <img
               draggable="false"
               src="./assets/images/educat/VBSPU.jpeg"  
-              alt=""
+              alt="VBSP University"
             />
           </div>
           <div class="content">
-            <h3>BCA</h3>
-            <p>VBSP University Jaunpur U.P.</p>
-            <h4>2018-2021 | Completed</h4>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>VBSP University, Jaunpur (U.P.)</p>
+            <h4>2018 - 2021 | Completed</h4>
           </div>
         </div>
       </div>
@@ -672,36 +505,29 @@
 
     <!-- work project section starts -->
     <section class="work" id="work">
-      <h2 class="heading">
-        <i class="fas fa-laptop-code"></i> Personal <span>Projects</span>
-      </h2>
+      <h2 class="heading"><i class="fas fa-laptop-code"></i> <span>Projects</span></h2>
 
       <div class="box-container">
-        <div class="box tilt">
-          <img
-            draggable="false"
-            src="./assets/images/projects/portfolio.png"
-            alt=""
-          />
+        <div class="box">
+          <div class="image">
+            <img draggable="false" src="./assets/images/projects/portfolio.png" alt="Portfolio Website" />
+          </div>
           <div class="content">
             <div class="tag">
               <h3>Portfolio Website</h3>
             </div>
             <div class="desc">
               <p>
-                This is my personal portfolio website where I showcase my projects, skills, and achievements. 
-                Designed with a clean, responsive layout, it serves as a central hub for recruiters and collaborators 
-                to learn more about me. Feel free to scroll through — everything you need is right here!
+                My personal portfolio website showcasing my projects, skills, and professional journey. 
+                Built with a responsive design to serve as a central hub for my work.
               </p>
               <div class="btns">
-                <a href="#" class="btn" target="_blank"
-                  ><i class="fas fa-eye"></i> View</a
-                >
-                > 
-                >
-                <a href="#" class="btn" target="_blank"
-                  >Code <i class="fas fa-code"></i
-                ></a>
+                <a href="#" class="btn" target="_blank">
+                  <i class="fas fa-eye"></i> View
+                </a>
+                <a href="https://github.com/Shivam25032000/portfolio" class="btn" target="_blank">
+                  <i class="fas fa-code"></i> Code
+                </a>
               </div>
             </div>
           </div>
@@ -711,101 +537,100 @@
     <!-- work project section ends -->
 
     <!-- footer section starts -->
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        <i class="fas fa-headset"></i> Get in <span>Touch</span>
+      </h2>
+
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="./assets/images/contact_illustration.png" alt="Contact Illustration" />
+          </div>
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="field">
+                <input type="text" name="name" placeholder="Name" required />
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="field">
+                <input 
+                  type="email" 
+                  name="email" 
+                  placeholder="Email" 
+                  id="email"
+                  required 
+                  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                />
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="field">
+                <input 
+                  type="tel" 
+                  name="phone" 
+                  placeholder="Phone" 
+                  id="phone"
+                  required 
+                  maxlength="10"
+                  oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                />
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="message">
+                <textarea placeholder="Message" name="message" required></textarea>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">
+                Submit <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
     <section class="footer">
       <div class="box-container">
         <div class="box">
           <h3>Shivam's Portfolio</h3>
           <p>
-            Thank you for exploring my portfolio! I’m always open to connecting with fellow developers, collaborators, and tech enthusiasts. 
-            Let’s connect on social media and build something meaningful together. <br />
-            <br />
-            Keep Rising 🚀🚀🚀🚀
+            Thank you for visiting! I am always excited to collaborate on new projects. <br />
+            Let's build something amazing together.
           </p>
+          <div class="share">
+            <a href="https://www.linkedin.com/in/shivam-kumar-singh-349170197/" target="_blank" aria-label="LinkedIn" class="fab fa-linkedin"></a>
+            <a href="https://github.com/Shivam25032000" target="_blank" aria-label="GitHub" class="fab fa-github"></a>
+            <a href="https://www.instagram.com/its_shivam_22/" target="_blank" aria-label="Instagram" class="fab fa-instagram"></a>
+            <a href="https://x.com/Shiva07044" target="_blank" aria-label="Twitter" class="fab fa-twitter"></a>
+          </div>
         </div>
 
         <div class="box">
           <h3>Quick Links</h3>
-          <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
-          <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
-          <a href="#skills"
-            ><i class="fas fa-chevron-circle-right"></i> Skills</a
-          >
-          <a href="#experience"
-            ><i class="fas fa-chevron-circle-right"></i> Experience</a
-          >
-          <a href="#awards"
-            ><i class="fas fa-chevron-circle-right"></i> Awards & Achievements</a
-          >
-          <a href="#education"
-            ><i class="fas fa-chevron-circle-right"></i> Education</a
-          >
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects</a>
-          
+          <a href="#home" class="links"><i class="fas fa-arrow-right"></i> Home</a>
+          <a href="#about" class="links"><i class="fas fa-arrow-right"></i> About</a>
+          <a href="#skills" class="links"><i class="fas fa-arrow-right"></i> Skills</a>
+          <a href="#work" class="links"><i class="fas fa-arrow-right"></i> Projects</a>
+          <a href="#contact" class="links"><i class="fas fa-arrow-right"></i> Contact</a>
         </div>
 
         <div class="box">
-          <h3>Contact info</h3>
-          <!-- <p><i class="fas fa-phone-"></i>+91 7704030704</p> -->
-          <p><i class="fas fa-phone-alt"></i>
-            <span id="phone">+91 77040 30704</span>
-            <button onclick="copyToClipboard('phone')" class="copy-btn" title="Copy Phone"><i class="fas fa-copy"></i></button>
-          </p>
-          <!-- <p><i class="fas fa-envelope"></i>shivamkumarsingh25032000@gmail.com</p> -->
-          <p><i class="fas fa-envelope"></i>
-            <span id="email">shivamkumarsingh25032000@gmail.com</span>
-            <button onclick="copyToClipboard('email')" class="copy-btn" title="Copy Email"><i class="fas fa-copy"></i></button>
-          </p>
-          <p><i class="fas fa-map-marker-alt"></i>Chennai, Tamil Nadu, India</p>
-          <div class="share">
-            <a
-              class="facebook"
-              aria-label="Facebook"
-              href="https://www.facebook.com/shivamsingh770"
-              target="_blank"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a
-              class="instagram"
-              aria-label="Instagram"
-              href="https://www.instagram.com/its_shivam_22/"
-              ><i class="fab fa-instagram" target="_blank"></i
-            ></a>
-            <a
-              class="linkedin"
-              aria-label="LinkedIn"
-              href="https://www.linkedin.com/in/shivam-kumar-singh-349170197/"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              class="twitter"
-              aria-label="twitter"
-              href="https://x.com/Shiva07044"
-              target="_blank"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="github"
-              aria-label="GitHub"
-              href="https://github.com/Shivam25032000"
-              target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <!-- <a
-              class="dev"
-              aria-label="Dev"
-              href="https://www.youtube.com/channel/UCUHWQr2ACeR2lSMXABALxHw"
-              target="_blank"
-              ><i class="fa-brands fa-youtube"></i
-            ></a> -->
-          </div>
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-phone"></i> +91 77040 30704</p>
+          <p><i class="fas fa-envelope"></i> shivamkumarsingh25032000@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Chennai, India</p>
         </div>
       </div>
 
-      <h1 class="credit">
-        Designed & Developed <i class="fa fa-heart pulse"></i> by
-        <a href="#"> CodeWithShivam</a>
-      </h1>
+      <div class="credit">
+        Designed & Developed <i class="fa fa-heart"></i> by <a href="#">CodeWithShivam</a>
+      </div>
     </section>
     <!-- footer section ends -->
 
@@ -849,11 +674,6 @@
 
     <!-- scroll reveal anim -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
 
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
